@@ -9,7 +9,7 @@ const clear = document.getElementById('clear')
 let month
 let totalPay;
 let valueType;
-
+// event listenrr that target the form
 form.addEventListener("submit" ,(event) => {
     event.preventDefault();
     const actualAmount = amount.value;
