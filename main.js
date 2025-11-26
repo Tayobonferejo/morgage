@@ -1,5 +1,5 @@
 
-const form = document.getElementById("form");
+const form = document.getElementById("form"); // targeting the form
 const amount = document.getElementById("amount");
 const year = document.getElementById("year");
 const rate = document.getElementById("rate");
