@@ -1,6 +1,6 @@
 
 const form = document.getElementById("form"); // targeting the form
-const amount = document.getElementById("amount");
+const amount = document.getElementById("amount"); // element that fetches the amount 
 const year = document.getElementById("year");
 const rate = document.getElementById("rate");
 const monthlyPay = document.getElementById("monthlyRepay");
