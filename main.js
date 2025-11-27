@@ -13,7 +13,7 @@ let valueType;
 form.addEventListener("submit" ,(event) => {
     event.preventDefault();
     const actualAmount = amount.value;
-    const actualYear = year.value;
+    const actualYear = year.value; // getting the value of actual year 
     const actualRate = rate.value;
     const type = document.getElementsByName('type');
     for (let i = 0; i < type.length; i++) {
