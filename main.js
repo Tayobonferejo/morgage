@@ -7,7 +7,7 @@ const monthlyPay = document.getElementById("monthlyRepay");
 const yearlyPay = document.getElementById("totalRepay");
 const clear = document.getElementById('clear')
 let month
-let totalPay;// initializing the monthly pay
+let totalPay;// initializing the total mortgage pay
 let valueType;
 // event listenrr that target the form
 form.addEventListener("submit" ,(event) => {
